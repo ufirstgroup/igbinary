@@ -1,0 +1,12 @@
+php5-igbinary (1.1.1-0ubuntu1~quantal) quantal; urgency=low
+
+  * Multiple distributions
+
+ -- Michael Ruoss <michael.ruoss@ufirstgroup.com>  Tue, 26 Mar 2013 14:59:53 +0100
+
+php5-igbinary (1.1.1-0ubuntu1) quantal; urgency=low
+
+  * Initial release
+  * Add dev package with igbinary.h
+
+ -- Michael Ruoss <michael.ruoss@ufirstgroup.com>  Tue, 26 Mar 2013 13:59:53 +0100

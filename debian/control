@@ -1,0 +1,24 @@
+Source: php5-igbinary
+Section: web
+Priority: optional
+Maintainer: Michael Ruoss <michael.ruoss@ufirstgroup.com>
+Build-Depends: debhelper (>= 8.0.0), php5-dev
+Standards-Version: 3.9.3
+Homepage: https://github.com/igbinary/igbinary.git
+#Vcs-Git: git://git.debian.org/collab-maint/php5-igbinary.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/php5-igbinary.git;a=summary
+
+Package: php5-igbinary
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${php5:Depends}
+Recommends: php5
+Provides: php5-igbinary
+Description: Igbinary is a drop in replacement for the standard php serializer.
+
+Package: php5-igbinary-dev
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${php5:Depends}
+Recommends: php5
+Provides: php5-igbinary-dev
+Description: Igbinary is a drop in replacement for the standard php serializer.
+

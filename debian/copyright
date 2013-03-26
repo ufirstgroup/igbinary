@@ -1,0 +1,32 @@
+This package was debianized by:
+
+    Michael Ruoss <michael.ruoss@ufirstgroup.com> on Mon, 22 Sep 2010 14:24:03 +0100
+
+It was downloaded from:
+
+    https://github.com/igbinary/igbinary/
+
+Upstream Author(s):
+
+    Pierre Joye
+    Teddy Grenman
+
+License:
+
+    This package is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this package; if not, write to the Free Software
+    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
+
+On Debian systems, the complete text of the GNU General
+Public License can be found in `/usr/share/common-licenses/GPL'.
+
+The Debian packaging is:
+
+    Copyright C) 2010, Simon Effenberg <savar@schuldeigen.de>
+
+and is licensed under the GPL, see above.
