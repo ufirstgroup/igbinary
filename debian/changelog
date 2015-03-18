@@ -1,3 +1,9 @@
+php5-igbinary (1.2.1-0ubuntu1~trusty) trusty; urgency=low
+
+  * Bump to upstream 1.2.1
+
+ -- Michael Ruoss <michael.ruoss@ufirstgroup.com>  Tue, 18 Mar 2015 15:04:03 +0100
+
 php5-igbinary (1.1.1-0ubuntu1~quantal) quantal; urgency=low
 
   * Multiple distributions
