@@ -1,6 +1,8 @@
 igbinary
 ========
 
+[![Build Status](https://travis-ci.org/igbinary/igbinary.svg?branch=master)](https://travis-ci.org/igbinary/igbinary)
+
 Igbinary is a drop in replacement for the standard php serializer. Instead of
 time and space consuming textual representation, igbinary stores php data
 structures in compact binary form. Savings are significant when using
@@ -27,7 +29,7 @@ Features
 - Data portability between platforms (32/64bit, endianess)
 - Tested on Linux amd64, Linux ARM, Mac OSX x86, HP-UX PA-RISC and NetBSD sparc64
 - Hooks up to APC opcode cache as a serialization handler (APC 3.1.7+)
-- Compatible with PHP 5.2 and 5.3
+- Compatible with PHP 5.2 &ndash; 5.6
 
 Implementation details
 ----------------------
@@ -60,17 +62,17 @@ How to use
 
 Add the following lines to your php.ini:
 
-    # Load igbinary extension
+    ; Load igbinary extension
     extension=igbinary.so
 
-    # Use igbinary as session serializer
+    ; Use igbinary as session serializer
     session.serialize_handler=igbinary
 
-    # Enable or disable compacting of duplicate strings
-    # The default is On.
+    ; Enable or disable compacting of duplicate strings
+    ; The default is On.
     igbinary.compact_strings=On
 
-    # Use igbinary as serializer in APC cache (3.1.7 or later)
+    ; Use igbinary as serializer in APC cache (3.1.7 or later)
     ;apc.serializer=igbinary
 
 .. and in your php code replace serialize and unserialize function calls

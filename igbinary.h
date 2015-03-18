@@ -1,10 +1,10 @@
 /*
   +----------------------------------------------------------------------+
   | See COPYING file for further copyright information                   |
-  +----------------------------------------------------------------------+ 
+  +----------------------------------------------------------------------+
   | Author: Oleg Grenrus <oleg.grenrus@dynamoid.com>                     |
   | See CREDITS for contributors                                         |
-  +----------------------------------------------------------------------+ 
+  +----------------------------------------------------------------------+
 */
 
 #ifndef IGBINARY_H
@@ -30,7 +30,7 @@
 #	define IGBINARY_API /* nothing special */
 #endif
 
-#define IGBINARY_VERSION "1.1.2-dev"
+#define PHP_IGBINARY_VERSION "1.2.1"
 
 /** Struct that contains pointers to memory allocation and deallocation functions.
  * @see igbinary_serialize_data
