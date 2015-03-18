@@ -1,3 +1,3 @@
 version=3
-http://pecl.php.net/package/redis \
-  /get/redis-([\d\.]*).tgz  debian  uupdate
+http://pecl.php.net/package/igbinary \
+  /get/igbinary-([\d\.]*).tgz  debian  uupdate
