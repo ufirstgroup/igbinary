@@ -17,20 +17,6 @@ Depends: ${shlibs:Depends}, ${misc:Depends}, ${php5:Depends}
 Recommends: ${phppear:Debian-Recommends}
 Breaks: ${phppear:Debian-Breaks}
 Provides: php5-igbinary
-Description: igbinary extension
+Description: ${phppear:summary}
  .
- Igbinary is a drop in replacement for the standard php serializer. Instead of
- time and space consuming textual representation, igbinary stores php data
- structures in a compact binary form. Savings are significant when using
- memcached or similar memory based storages for serialized data.
-
-Package: php5-igbinary-dev
-Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, ${php5:Depends}
-Recommends: ${phppear:Debian-Recommends}
-Breaks: ${phppear:Debian-Breaks}
-Provides: php5-igbinary-dev
-Description: igbinary extension development headers
- .
- This package provides pecl-http development headers
-
+ ${phppear:description}
